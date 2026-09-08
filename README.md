@@ -1,45 +1,22 @@
 # FATE GAMER — Official Headquarters
 
+Artist. Musician. Creator. Entrepreneur.
+From 33, Hola, Kenya.
+
 Repo: https://github.com/fategamer/fategamer-hq
 
-Preview: https://fategamer-hq-fategamers-projects.vercel.app
+## Launch in two steps
 
-## What this is
+1. Open this repo → folder `photos` → **Add file → Upload files**
+   Upload every `.webp` from `fategamer-photos.zip`.
+2. Vercel → **Add New → Project** → import `fategamer/fategamer-hq`
+   Settings → Deployment Protection → **Off**.
 
-A digital HQ, not a generic portfolio.
+Custom domain later: `fategamer.com`.
 
-- HOME — enter the world
-- MUSIC — featured release + Spotify / Apple / YouTube / Audiomack / Boomplay
-- SHOWS — upcoming dates (quiet state if none)
-- CONTENT — visuals
-- ABOUT — from 33, Hola
-- PROJECTS — GSCN, Real Forge, Supply Control
-- CONTACT — bookings + full directory
+## What is live in the code
 
-No ERISS. No clothing brand. No forced extra identities.
+Out now: MAREKA · DOPE · MAALIM · KIZAZI JEURI · EGO CHECK · NYOTA
+Coming Nov / Dec 2026: NOT THEM · NATAKA · LIFE OF A GAMER
 
-## Edit in 2 minutes
-
-Open `content.js`:
-
-1. Paste real Instagram / TikTok / YouTube / LinkedIn URLs
-2. Replace search links with your exact Spotify / Apple artist URLs
-3. Add events:
-   `{ title: "FATE GAMER LIVE", city: "Nairobi", date: "October 2026", venue: "TBA", link: "#" }`
-4. Change `email` to your real booking inbox
-5. Push to `main`
-
-## Photos
-
-Add files under `/photos` using the names in `photos/README.md`.
-On GitHub: repo → Add file → Upload files.
-
-## Domain
-
-Buy `fategamer.com` if it is free, then in Vercel: Project → Settings → Domains.
-
-Instagram bio becomes:
-
-MUSIC | VIDEOS | SHOWS
-Everything FATE GAMER
-fategamer.com
+Edit songs, socials, and shows in `content.js` only. Then push `main`.
