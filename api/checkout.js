@@ -1,3 +1,5 @@
+const crypto = require("crypto");
+
 const CATALOG = {
   "classic-tshirt": { name: "Classic T-Shirt", amount: 25, type: "merch" },
   "premium-hoodie": { name: "Premium Hoodie", amount: 60, type: "merch" },
@@ -22,7 +24,13 @@ module.exports = async function handler(req, res) {
   const secret = process.env.PAYSTACK_SECRET_KEY;
   if (!secret) return json(res, 503, { ok: false, error: "Payments are not configured yet." });
 
-  const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body || {});
+  let body;
+  try {
+    body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : (req.body || {});
+  } catch (_) {
+    return json(res, 400, { ok: false, error: "Invalid request body." });
+  }
+
   const productId = String(body.productId || "").trim();
   const email = String(body.email || "").trim().toLowerCase();
   const customerName = String(body.name || "").trim().slice(0, 120);
@@ -32,6 +40,7 @@ module.exports = async function handler(req, res) {
 
   if (!item) return json(res, 400, { ok: false, error: "Unknown product or service." });
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return json(res, 400, { ok: false, error: "A valid email is required." });
+  if (item.type === "merch" && !shippingAddress) return json(res, 400, { ok: false, error: "A shipping address is required for physical products." });
 
   const currency = (process.env.PAYSTACK_CURRENCY || "USD").toUpperCase();
   const reference = `fg_${productId}_${crypto.randomUUID().replace(/-/g, "").slice(0, 24)}`;
