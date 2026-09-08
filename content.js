@@ -38,11 +38,11 @@ window.FG = {
 
   releases: [
     { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAREKA" },
-    { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", href: "https://open.spotify.com/search/DOPE%20PAPITOO%20FATEGAMER" },
+    { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20DOPE" },
     { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/baf9e6e7-f909-4a2c-b517-7eacec89fda7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAALIM" },
-    { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/KIZAZI%20JEURI%20FATEGAMER" },
-    { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/EGO%20CHECK%20FATEGAMER" },
-    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/NYOTA%20FATEGAMER" }
+    { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20KIZAZI%20JEURI" },
+    { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20EGO%20CHECK" },
+    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20NYOTA" }
   ],
 
   vault: [
@@ -68,7 +68,7 @@ window.FG = {
   ],
 
   projects: [
-    { kicker: "Culture", title: "TRAP SAINT", text: "Where culture, creativity, music and real conversations meet. Faith. Focus. Discipline. Consistency. Purpose.", href: "https://www.instagram.com/trapsaint/", cta: "Enter Trap Saint" },
+    { kicker: "Culture", title: "TRAP SAINT", text: "Where culture, creativity, music and real conversations meet. Faith. Focus. Discipline. Consistency. Purpose.", href: "https://www.instagram.com/trapsaint/", cta: "Follow TRAP SAINT" },
     { kicker: "Knowledge", title: "GSCN", text: "Growth & Supply Chain Network — procurement, operations and professional growth.", href: "https://gscn-network.vercel.app", cta: "Open GSCN" },
     { kicker: "Studio", title: "REAL FORGE", text: "AI creative production studio. Ideas into worlds.", href: "https://github.com/fategamer/real-forge", cta: "See the studio" }
   ]
