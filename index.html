@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FATE GAMER — Official</title>
+  <meta name="description" content="FATE GAMER — Artist, entrepreneur and creator from 33, Hola, Kenya. Music, videos, shows, projects. No rush. No noise." />
+  <meta property="og:title" content="FATE GAMER — Official" />
+  <meta property="og:description" content="From 33, Hola, Kenya. Music. Content. Shows. Projects." />
+  <meta property="og:image" content="photos/album.webp" />
+  <link rel="icon" href="photos/album.webp" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+  <nav>
+    <a class="brand" href="#top">FATE GAMER</a>
+    <div class="nav-links">
+      <a href="#music">Music</a>
+      <a href="#videos">Videos</a>
+      <a href="#events">Shows</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </div>
+    <a class="nav-cta" href="#contact">Book / Contact</a>
+    <button class="burger" id="burger" aria-label="Menu">☰</button>
+  </nav>
+  <div class="mobile-menu" id="menu">
+    <a href="#music">Music</a>
+    <a href="#videos">Videos</a>
+    <a href="#events">Shows</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <header class="hero" id="top">
+    <div class="hero-copy">
+      <p class="kicker" id="kicker">No rush. No noise.</p>
+      <h1>FATE<br>GAMER</h1>
+      <p class="sub" id="line">Artist · Entrepreneur · Creator · Strategist</p>
+      <div class="actions">
+        <a class="btn gold" href="#music">Listen now</a>
+        <a class="btn ghost" href="#videos">Watch</a>
+        <a class="btn ghost" href="#events">Shows</a>
+        <a class="btn ghost" href="#contact">Work with me</a>
+      </div>
+      <p class="origin" id="origin">From 33, Hola, Kenya — building a name beyond the place where it began.</p>
+    </div>
+    <div class="hero-visual">
+      <img src="photos/sunset.webp" alt="FATE GAMER" />
+      <div class="stamp">STILL PLAYING THE GAME</div>
+    </div>
+  </header>
+
+  <section id="music">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Music</h2>
+        <p>Do not hunt through apps. Press play from here — then jump to the platform you already use.</p>
+      </div>
+      <article class="featured">
+        <img id="feat-cover" src="photos/album.webp" alt="Life of a Gamer" />
+        <div class="featured-body">
+          <p class="note" id="feat-type">Album era</p>
+          <h3 id="feat-title">LIFE OF A GAMER</h3>
+          <p id="feat-blurb">17 songs. 17 stories. 1 journey.</p>
+          <div class="platforms" id="platforms"></div>
+        </div>
+      </article>
+      <div class="cards" id="releases"></div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Shows</h2>
+        <p>Upcoming dates land here first. If the list is quiet, the next room is still being chosen.</p>
+      </div>
+      <div class="events" id="event-list"></div>
+    </div>
+  </section>
+
+  <section id="videos">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Content</h2>
+        <p>Visuals, sessions and frames. Tap through to YouTube.</p>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap about">
+      <img src="photos/pray-sit.webp" alt="FATE GAMER portrait" />
+      <div>
+        <p class="kicker">The story</p>
+        <h2>From 33, Hola.</h2>
+        <p>Before the name FATE GAMER, there was a young man from 33, Hola, Kenya, with big dreams and very little certainty about how far those dreams could go.</p>
+        <p>Hola is more than a pin on a map. It is where the journey began — and where the refusal to stay small was born.</p>
+        <p class="quote">Life does not always give you the cards you want. You still have to play.</p>
+        <p>The music moves between Sheng, Kiswahili and English because the artist refuses one box. Some records make you move. Some make you think. All of them come from a life still being written.</p>
+        <p>Away from the microphone he builds systems — procurement, supply chain, ventures. Creativity, execution and discipline are the same person, not competing identities.</p>
+        <p>This is not a story told from the finish line. Songs are still waiting. Stages are still waiting. The ambition is global. The start was local.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Projects</h2>
+        <p>Only what is being built now. Music is the front door. These rooms sit behind it.</p>
+      </div>
+      <div class="projects" id="projects-list"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Contact</h2>
+        <p>Bookings, collabs, brand work, and professional conversations.</p>
+      </div>
+      <div class="contact-grid">
+        <form id="form">
+          <input name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <select name="reason">
+            <option>Booking / show</option>
+            <option>Collaboration</option>
+            <option>Brand / press</option>
+            <option>Procurement / GSCN</option>
+            <option>Something else</option>
+          </select>
+          <textarea name="message" placeholder="Tell me what you need" required></textarea>
+          <button class="btn gold" type="submit">Send message</button>
+          <p class="origin" id="form-note"></p>
+        </form>
+        <div>
+          <p class="kicker">Everything FATE GAMER</p>
+          <div class="links" id="all-links"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>FATE GAMER · From 33, Hola, Kenya</span>
+    <span>No rush. No noise. · It’s not luck. It’s discipline.</span>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
