@@ -70,6 +70,19 @@
 
   document.getElementById("yt-cta").href = C.socials.youtube;
 
+  const bookingList = document.getElementById("booking-list");
+  (C.bookingServices || []).forEach((service) => {
+    const card = document.createElement("article");
+    card.className = "booking-card";
+    card.innerHTML = `
+      <div class="booking-icon">${service.icon}</div>
+      <h3>${service.title}</h3>
+      <p>${service.description}</p>
+      <div class="booking-rate">${service.rate}</div>
+    `;
+    bookingList.appendChild(card);
+  });
+
   const projects = document.getElementById("projects-list");
   C.projects.forEach((p) => {
     const el = document.createElement("article");
