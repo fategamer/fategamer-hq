@@ -5,6 +5,7 @@ COVERS
 - kizazi.webp
 - maalim.webp
 - album.webp
+- nataka.webp
 - life-badge.webp
 
 BRAND
@@ -12,14 +13,3 @@ BRAND
 - trap-saint-2.webp
 - built-different.webp
 - spotify-header.webp
-
-LOOKBOOK
-- sunset.webp
-- pray-sit.webp
-- pink.webp
-- red-balenciaga.webp
-- chrome-green.webp
-- timbs.webp
-- yellow-hoodie.webp
-- chrome-back.webp
-- denim.webp

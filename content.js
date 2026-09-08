@@ -42,9 +42,17 @@ window.FG = {
     { title: "LIFE OF A GAMER", meta: "Album era", note: "17 songs. 17 stories. 1 journey.", cover: "photos/album.webp", href: "https://open.spotify.com/search/LIFE%20OF%20A%20GAMER%20FATEGAMER" }
   ],
 
+  vault: [
+    { title: "NATAKA", meta: "Unreleased single", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · prod. Charm City Entertainment", cover: "photos/nataka.webp" },
+    { title: "EGO CHECK", meta: "Kizazi Jeuri · track 1", note: "Prod. TBA", cover: "photos/kizazi.webp" },
+    { title: "NYOTA", meta: "Kizazi Jeuri · track 2", note: "Prod. TBA", cover: "photos/kizazi.webp" },
+    { title: "DOPE", meta: "Kizazi Jeuri · track 3", note: "ft. Papitoo · Prod. TBA", cover: "photos/kizazi.webp" }
+  ],
+
   events: [],
 
   lookbook: [
+    { src: "photos/nataka.webp", alt: "NATAKA" },
     { src: "photos/not-them.webp", alt: "NOT THEM" },
     { src: "photos/sunset.webp", alt: "Sunset session" },
     { src: "photos/kizazi.webp", alt: "Kizazi Jeuri" },
