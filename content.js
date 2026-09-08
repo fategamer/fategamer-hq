@@ -74,7 +74,11 @@ window.FG = {
     { src: "photos/spotify-header.webp", alt: "Studio sketch" },
     { src: "photos/yellow-hoodie.webp", alt: "Hoodie" },
     { src: "photos/chrome-back.webp", alt: "Chrome Hearts" },
-    { src: "photos/denim.webp", alt: "Denim set" }
+    { src: "photos/denim.webp", alt: "Denim set" },
+    { src: "photos/pray-stand.webp", alt: "PRAY stand" },
+    { src: "photos/green-shirt.webp", alt: "Green set" },
+    { src: "photos/red-cap.webp", alt: "Red cap" },
+    { src: "photos/pray-counter.webp", alt: "Counter session" }
   ],
 
   projects: [
