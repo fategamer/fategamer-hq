@@ -17,7 +17,8 @@ window.FG = {
     facebook: "https://www.facebook.com/fategamer",
     threads: "https://www.threads.net/@fate_.gamer",
     linkedin: "https://www.linkedin.com/search/results/all/?keywords=Fate%20Gamer",
-    github: "https://github.com/fategamer"
+    github: "https://github.com/fategamer",
+    whop: "https://whop.com/fate-gamer"
   },
 
   listen: {
@@ -32,53 +33,38 @@ window.FG = {
     title: "MAREKA",
     type: "Single · out now",
     blurb: "Loyalty Over Everything.",
-    cover: "photos/mareka.webp"
+    cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp"
   },
 
   releases: [
-    { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "photos/mareka.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAREKA" },
-    { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "photos/dope.webp", href: "https://open.spotify.com/search/DOPE%20PAPITOO%20FATEGAMER" },
-    { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "photos/maalim.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAALIM" },
-    { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/KIZAZI%20JEURI%20FATEGAMER" },
-    { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/EGO%20CHECK%20FATEGAMER" },
-    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/NYOTA%20FATEGAMER" }
+    { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAREKA" },
+    { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", href: "https://open.spotify.com/search/DOPE%20PAPITOO%20FATEGAMER" },
+    { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/baf9e6e7-f909-4a2c-b517-7eacec89fda7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAALIM" },
+    { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/KIZAZI%20JEURI%20FATEGAMER" },
+    { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/EGO%20CHECK%20FATEGAMER" },
+    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/NYOTA%20FATEGAMER" }
   ],
 
   vault: [
-    { title: "NOT THEM", meta: "Coming Nov / Dec 2026", note: "Sio Lazima Wao", cover: "photos/not-them.webp" },
-    { title: "NATAKA", meta: "Coming Nov / Dec 2026", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · Charm City Entertainment", cover: "photos/nataka.webp" },
-    { title: "LIFE OF A GAMER", meta: "Album · Coming Nov / Dec 2026", note: "17 songs. 17 stories. 1 journey.", cover: "photos/album.webp" }
+    { title: "NOT THEM", meta: "Coming Nov / Dec 2026", note: "Sio Lazima Wao", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/8dcfbb95-5513-418c-8fec-3b907d564412/image.webp" },
+    { title: "NATAKA", meta: "Coming Nov / Dec 2026", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · Charm City Entertainment", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/927a2a70-a46b-4cdf-a31a-03adbeedc4cd/image.webp" },
+    { title: "LIFE OF A GAMER", meta: "Album · Coming Nov / Dec 2026", note: "17 songs. 17 stories. 1 journey.", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/83d8760e-dfc9-4b22-b8af-844533a8ad3e/image.webp" }
   ],
 
   events: [],
 
   lookbook: [
-    { src: "photos/mareka.webp", alt: "MAREKA" },
-    { src: "photos/dope.webp", alt: "DOPE" },
-    { src: "photos/elevator.webp", alt: "Elevator editorial" },
-    { src: "photos/nataka.webp", alt: "NATAKA" },
-    { src: "photos/not-them.webp", alt: "NOT THEM" },
-    { src: "photos/sunset.webp", alt: "Sunset session" },
-    { src: "photos/kizazi.webp", alt: "Kizazi Jeuri" },
-    { src: "photos/pray-sit.webp", alt: "PRAY" },
-    { src: "photos/maalim.webp", alt: "Maalim" },
-    { src: "photos/pink.webp", alt: "Pink set" },
-    { src: "photos/trap-saint.webp", alt: "Trap Saint" },
-    { src: "photos/red-balenciaga.webp", alt: "Street editorial" },
-    { src: "photos/album.webp", alt: "Life of a Gamer" },
-    { src: "photos/chrome-green.webp", alt: "Chrome" },
-    { src: "photos/timbs.webp", alt: "Timbs" },
-    { src: "photos/built-different.webp", alt: "Built Different" },
-    { src: "photos/trap-saint-2.webp", alt: "Trap Saint conversations" },
-    { src: "photos/life-badge.webp", alt: "Lifestyle" },
-    { src: "photos/spotify-header.webp", alt: "Studio sketch" },
-    { src: "photos/yellow-hoodie.webp", alt: "Hoodie" },
-    { src: "photos/chrome-back.webp", alt: "Chrome Hearts" },
-    { src: "photos/denim.webp", alt: "Denim set" },
-    { src: "photos/pray-stand.webp", alt: "PRAY stand" },
-    { src: "photos/green-shirt.webp", alt: "Green set" },
-    { src: "photos/red-cap.webp", alt: "Red cap" },
-    { src: "photos/pray-counter.webp", alt: "Counter session" }
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/47e8e2e3-ecc6-4a11-a15d-fc0dc10aba3e/image.jpeg", alt: "PRAY" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp", alt: "MAREKA" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", alt: "DOPE" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/8934189b-3e08-4f19-902a-30e1d11ba954/image.webp", alt: "Elevator editorial" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/927a2a70-a46b-4cdf-a31a-03adbeedc4cd/image.webp", alt: "NATAKA" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/8dcfbb95-5513-418c-8fec-3b907d564412/image.webp", alt: "NOT THEM" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/db23e99f-efab-4cd9-8f26-61f810f5318d/image.webp", alt: "Sunset session" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", alt: "Kizazi Jeuri" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/da826469-4233-47af-b025-9d303e23ec61/image.webp", alt: "PRAY portrait" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/baf9e6e7-f909-4a2c-b517-7eacec89fda7/image.webp", alt: "Maalim" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/83d8760e-dfc9-4b22-b8af-844533a8ad3e/image.webp", alt: "Life of a Gamer" }
   ],
 
   projects: [
