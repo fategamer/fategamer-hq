@@ -44,14 +44,18 @@ window.FG = {
 
   vault: [
     { title: "NATAKA", meta: "Unreleased single", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · prod. Charm City Entertainment", cover: "photos/nataka.webp" },
+    { title: "MAREKA", meta: "Unreleased single", note: "Loyalty Over Everything", cover: "photos/mareka.webp" },
+    { title: "DOPE", meta: "Single / Kizazi Jeuri", note: "Papitoo ft. FATEGAMER", cover: "photos/dope.webp" },
     { title: "EGO CHECK", meta: "Kizazi Jeuri · track 1", note: "Prod. TBA", cover: "photos/kizazi.webp" },
-    { title: "NYOTA", meta: "Kizazi Jeuri · track 2", note: "Prod. TBA", cover: "photos/kizazi.webp" },
-    { title: "DOPE", meta: "Kizazi Jeuri · track 3", note: "ft. Papitoo · Prod. TBA", cover: "photos/kizazi.webp" }
+    { title: "NYOTA", meta: "Kizazi Jeuri · track 2", note: "Prod. TBA", cover: "photos/kizazi.webp" }
   ],
 
   events: [],
 
   lookbook: [
+    { src: "photos/mareka.webp", alt: "MAREKA" },
+    { src: "photos/dope.webp", alt: "DOPE" },
+    { src: "photos/elevator.webp", alt: "Elevator editorial" },
     { src: "photos/nataka.webp", alt: "NATAKA" },
     { src: "photos/not-them.webp", alt: "NOT THEM" },
     { src: "photos/sunset.webp", alt: "Sunset session" },
