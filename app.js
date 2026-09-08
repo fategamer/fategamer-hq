@@ -2,11 +2,8 @@
   const C = window.FG;
   if (!C) return;
 
-  document.getElementById("kicker").textContent = C.tagline;
-  document.getElementById("line").textContent = C.line;
-  document.getElementById("origin").textContent = C.origin;
   document.getElementById("feat-title").textContent = C.featured.title;
-  document.getElementById("feat-type").textContent = C.featured.type;
+  document.getElementById("feat-type").textContent = "FATE GAMER · " + C.featured.type;
   document.getElementById("feat-blurb").textContent = C.featured.blurb;
   document.getElementById("feat-cover").src = C.featured.cover;
 
@@ -39,15 +36,23 @@
     releases.appendChild(a);
   });
 
+  const vault = document.getElementById("vault");
+  (C.vault || []).forEach((r) => {
+    const el = document.createElement("article");
+    el.className = "card";
+    el.innerHTML = `<img src="${r.cover}" alt="${r.title}" /><div class="pad"><small>${r.meta}</small><h3>${r.title}</h3><small>${r.note}</small></div>`;
+    vault.appendChild(el);
+  });
+
   const eventList = document.getElementById("event-list");
   if (!C.events.length) {
-    eventList.innerHTML = `<div class="empty">No upcoming shows posted yet. Follow FATE GAMER — you will know first.</div>`;
+    eventList.innerHTML = `<div class="empty">Upcoming dates land here first. Follow FATE GAMER — you will know before the room fills.</div>`;
   } else {
     C.events.forEach((e) => {
       const row = document.createElement("a");
       row.className = "event";
       row.href = e.link || "#contact";
-      row.innerHTML = `<div><strong>${e.title}</strong><div style="color:var(--mute)">${e.venue || ""} ${e.city ? "· " + e.city : ""}</div></div><div>${e.date}</div>`;
+      row.innerHTML = `<div><strong>${e.title}</strong><div style="color:var(--mute)">📍 ${e.venue || ""} ${e.city ? "· " + e.city : ""}</div></div><div>📅 ${e.date}</div>`;
       eventList.appendChild(row);
     });
   }
@@ -63,12 +68,34 @@
     gallery.appendChild(a);
   });
 
+  document.getElementById("yt-cta").href = C.socials.youtube;
+
   const projects = document.getElementById("projects-list");
   C.projects.forEach((p) => {
     const el = document.createElement("article");
     el.className = "project";
     el.innerHTML = `<div class="k">${p.kicker}</div><h3>${p.title}</h3><p>${p.text}</p><a href="${p.href}" target="_blank" rel="noopener">${p.cta} →</a>`;
     projects.appendChild(el);
+  });
+
+  const follow = document.getElementById("follow-row");
+  const followItems = [
+    ["Instagram", C.socials.instagram],
+    ["TikTok", C.socials.tiktok],
+    ["YouTube", C.socials.youtube],
+    ["Spotify", C.listen.spotify],
+    ["Apple Music", C.listen.apple],
+    ["Facebook", C.socials.facebook],
+    ["X", C.socials.x],
+    ["LinkedIn", C.socials.linkedin]
+  ];
+  followItems.forEach(([label, href]) => {
+    const a = document.createElement("a");
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = label;
+    follow.appendChild(a);
   });
 
   const all = document.getElementById("all-links");
