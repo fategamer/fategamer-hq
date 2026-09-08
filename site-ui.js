@@ -24,7 +24,12 @@
     .faq-panel{padding:0 20px 18px;color:var(--mute)}
     .back-top{position:fixed;right:20px;bottom:20px;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;background:rgba(7,7,6,.9);color:var(--gold);z-index:20;opacity:0;pointer-events:none;transform:translateY(10px);transition:.2s}
     .back-top.show{opacity:1;pointer-events:auto;transform:none}
-    @media(max-width:700px){.section-toolbar{top:60px;padding:8px 14px}.section-toolbar button{font-size:10px;padding:7px 9px}.section-toggle{font-size:10px}.back-top{right:14px;bottom:14px}}
+    .fg-enhancement{margin-top:28px;border-color:rgba(212,180,106,.22)}
+    .fg-enhancement h3{font-family:"Cinzel",serif;font-size:24px;margin-bottom:8px}
+    .fg-enhancement p{color:var(--mute)}
+    .fg-toast{position:fixed;right:20px;bottom:20px;z-index:110;width:min(520px,calc(100% - 40px));padding:16px 18px;background:var(--bg-2);border:1px solid var(--gold);color:var(--gold-2);box-shadow:0 20px 60px rgba(0,0,0,.5);opacity:0;transform:translateY(10px);pointer-events:none;transition:.2s}
+    .fg-toast.show{opacity:1;transform:none}
+    @media(max-width:700px){.section-toolbar{top:60px;padding:8px 14px}.section-toolbar button{font-size:10px;padding:7px 9px}.section-toggle{font-size:10px}.back-top{right:14px;bottom:14px}.fg-toast{right:14px;bottom:14px;width:calc(100% - 28px)}}
   `;
   document.head.appendChild(style);
 
@@ -38,9 +43,7 @@
     button.setAttribute("aria-controls", content.id);
     const render = (expanded) => {
       button.setAttribute("aria-expanded", String(expanded));
-      button.innerHTML = expanded
-        ? "<span>Collapse section</span><span aria-hidden=\"true\">⌃</span>"
-        : "<span>Expand section</span><span aria-hidden=\"true\">⌄</span>";
+      button.innerHTML = expanded ? "<span>Collapse section</span><span aria-hidden=\"true\">⌃</span>" : "<span>Expand section</span><span aria-hidden=\"true\">⌄</span>";
     };
     render(true);
     button.addEventListener("click", () => {
@@ -59,9 +62,7 @@
     const content = document.createElement("div");
     content.className = "section-content";
     content.id = `${section.id}-content`;
-
     if (head) {
-      if (head.querySelector(".section-toggle")) return;
       while (head.nextSibling) content.appendChild(head.nextSibling);
       head.appendChild(makeToggle(section, content));
       wrap.appendChild(content);
@@ -82,7 +83,6 @@
   toolbar.innerHTML = '<button type="button" data-section-action="expand">Expand all</button><button type="button" data-section-action="collapse">Collapse all</button>';
   const firstSection = qs("body > section");
   if (firstSection) document.body.insertBefore(toolbar, firstSection);
-
   toolbar.addEventListener("click", (event) => {
     const action = event.target.closest("[data-section-action]")?.dataset.sectionAction;
     if (!action) return;
@@ -90,9 +90,7 @@
     qsa(".section-toggle").forEach((button) => {
       const content = document.getElementById(button.getAttribute("aria-controls"));
       button.setAttribute("aria-expanded", String(shouldExpand));
-      button.innerHTML = shouldExpand
-        ? "<span>Collapse section</span><span aria-hidden=\"true\">⌃</span>"
-        : "<span>Expand section</span><span aria-hidden=\"true\">⌄</span>";
+      button.innerHTML = shouldExpand ? "<span>Collapse section</span><span aria-hidden=\"true\">⌃</span>" : "<span>Expand section</span><span aria-hidden=\"true\">⌄</span>";
       if (content) content.hidden = !shouldExpand;
       button.closest("section")?.classList.toggle("is-collapsed", !shouldExpand);
     });
@@ -119,4 +117,10 @@
   const syncTop = () => top.classList.toggle("show", window.scrollY > 700);
   window.addEventListener("scroll", syncTop, { passive: true });
   syncTop();
+
+  // Load the deeper interaction layer after the existing UI is ready.
+  const enhancements = document.createElement("script");
+  enhancements.src = "enhancements.js";
+  enhancements.defer = true;
+  document.body.appendChild(enhancements);
 })();
