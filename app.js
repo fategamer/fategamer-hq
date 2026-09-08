@@ -134,6 +134,12 @@
     document.getElementById("form-note").textContent = "Opening your mail app…";
   });
 
+  document.querySelectorAll("img").forEach((img) => {
+    img.addEventListener("error", () => {
+      img.style.visibility = "hidden";
+    });
+  });
+
   const menu = document.getElementById("menu");
   document.getElementById("burger").addEventListener("click", () => {
     menu.style.display = menu.style.display === "flex" ? "none" : "flex";
