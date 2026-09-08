@@ -29,25 +29,25 @@ window.FG = {
   },
 
   featured: {
-    title: "NOT THEM",
+    title: "MAREKA",
     type: "Single · out now",
-    blurb: "Sio Lazima Wao. Real recognize real.",
-    cover: "photos/not-them.webp"
+    blurb: "Loyalty Over Everything.",
+    cover: "photos/mareka.webp"
   },
 
   releases: [
-    { title: "NOT THEM", meta: "Single · out now", note: "Sio Lazima Wao", cover: "photos/not-them.webp", href: "https://open.spotify.com/search/FATEGAMER%20NOT%20THEM" },
     { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "photos/mareka.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAREKA" },
     { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "photos/dope.webp", href: "https://open.spotify.com/search/DOPE%20PAPITOO%20FATEGAMER" },
     { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "photos/maalim.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAALIM" },
     { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/KIZAZI%20JEURI%20FATEGAMER" },
     { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/EGO%20CHECK%20FATEGAMER" },
-    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/NYOTA%20FATEGAMER" },
-    { title: "LIFE OF A GAMER", meta: "Album era · out now", note: "17 songs. 17 stories. 1 journey.", cover: "photos/album.webp", href: "https://open.spotify.com/search/LIFE%20OF%20A%20GAMER%20FATEGAMER" }
+    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/NYOTA%20FATEGAMER" }
   ],
 
   vault: [
-    { title: "NATAKA", meta: "Unreleased single", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · prod. Charm City Entertainment", cover: "photos/nataka.webp" }
+    { title: "NOT THEM", meta: "Coming Nov / Dec 2026", note: "Sio Lazima Wao", cover: "photos/not-them.webp" },
+    { title: "NATAKA", meta: "Coming Nov / Dec 2026", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · Charm City Entertainment", cover: "photos/nataka.webp" },
+    { title: "LIFE OF A GAMER", meta: "Album · Coming Nov / Dec 2026", note: "17 songs. 17 stories. 1 journey.", cover: "photos/album.webp" }
   ],
 
   events: [],
