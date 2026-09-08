@@ -11,7 +11,7 @@
     .section-toolbar button:hover,.section-toggle:hover{background:rgba(212,180,106,.14);border-color:var(--gold)}
     .sec-head{position:relative}
     .section-toggle{display:inline-flex;align-items:center;gap:8px;margin-top:14px}
-    .section-content{overflow:visible;transition:opacity .2s ease}
+    .section-content{overflow:visible}
     section.is-collapsed .section-content{display:none}
     section.is-collapsed .sec-head{margin-bottom:0}
     .section-fallback-toggle{display:flex;justify-content:flex-end;margin-bottom:18px}
@@ -109,22 +109,6 @@
       if (icon) icon.textContent = open ? "+" : "−";
     });
   });
-
-  const burger = document.getElementById("burger");
-  const menu = document.getElementById("menu");
-  if (burger && menu) {
-    burger.setAttribute("aria-expanded", "false");
-    burger.addEventListener("click", () => {
-      const open = menu.classList.toggle("open");
-      burger.setAttribute("aria-expanded", String(open));
-      burger.textContent = open ? "×" : "☰";
-    });
-    qsa("a", menu).forEach((link) => link.addEventListener("click", () => {
-      menu.classList.remove("open");
-      burger.setAttribute("aria-expanded", "false");
-      burger.textContent = "☰";
-    }));
-  }
 
   const top = document.createElement("a");
   top.className = "back-top";
