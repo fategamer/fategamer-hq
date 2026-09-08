@@ -2,9 +2,9 @@
 
 window.FG = {
   name: "FATE GAMER",
-  tagline: "No rush. No noise.",
-  line: "Artist · Trap Saint · Creator · Strategist",
-  origin: "From 33, Hola, Kenya — still playing the game.",
+  tagline: "From 33, Hola, Kenya. To wherever the music takes me.",
+  line: "Artist. Musician. Creator. Entrepreneur.",
+  origin: "The story is still being written.",
   email: "bookings@fategamer.com",
 
   socials: {
