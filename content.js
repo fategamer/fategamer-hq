@@ -23,7 +23,7 @@ window.FG = {
   listen: {
     spotify: "https://open.spotify.com/search/FATEGAMER",
     apple: "https://music.apple.com/search?term=FATEGAMER",
-    youtubeMusic: "https://music.youtube.com/search?q=FATEGAMER%20NOT%20THEM",
+    youtubeMusic: "https://music.youtube.com/search?q=FATEGAMER",
     audiomack: "https://audiomack.com/search?q=FATEGAMER",
     boomplay: "https://www.boomplay.com/search/FATEGAMER"
   },
@@ -36,18 +36,18 @@ window.FG = {
   },
 
   releases: [
-    { title: "NOT THEM", meta: "Single · 2026", note: "Sio Lazima Wao", cover: "photos/not-them.webp", href: "https://open.spotify.com/search/FATEGAMER%20NOT%20THEM" },
-    { title: "KIZAZI JEURI", meta: "EP", note: "Ego Check · Nyota · Dope ft. Papitoo", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/KIZAZI%20JEURI" },
-    { title: "MAALIM", meta: "Official Audio", note: "Godown Music Studios", cover: "photos/maalim.webp", href: "https://www.youtube.com/results?search_query=FATEGAMER+MAALIM" },
-    { title: "LIFE OF A GAMER", meta: "Album era", note: "17 songs. 17 stories. 1 journey.", cover: "photos/album.webp", href: "https://open.spotify.com/search/LIFE%20OF%20A%20GAMER%20FATEGAMER" }
+    { title: "NOT THEM", meta: "Single · out now", note: "Sio Lazima Wao", cover: "photos/not-them.webp", href: "https://open.spotify.com/search/FATEGAMER%20NOT%20THEM" },
+    { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "photos/mareka.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAREKA" },
+    { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "photos/dope.webp", href: "https://open.spotify.com/search/DOPE%20PAPITOO%20FATEGAMER" },
+    { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "photos/maalim.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAALIM" },
+    { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/KIZAZI%20JEURI%20FATEGAMER" },
+    { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/EGO%20CHECK%20FATEGAMER" },
+    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "photos/kizazi.webp", href: "https://open.spotify.com/search/NYOTA%20FATEGAMER" },
+    { title: "LIFE OF A GAMER", meta: "Album era · out now", note: "17 songs. 17 stories. 1 journey.", cover: "photos/album.webp", href: "https://open.spotify.com/search/LIFE%20OF%20A%20GAMER%20FATEGAMER" }
   ],
 
   vault: [
-    { title: "NATAKA", meta: "Unreleased single", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · prod. Charm City Entertainment", cover: "photos/nataka.webp" },
-    { title: "MAREKA", meta: "Unreleased single", note: "Loyalty Over Everything", cover: "photos/mareka.webp" },
-    { title: "DOPE", meta: "Single / Kizazi Jeuri", note: "Papitoo ft. FATEGAMER", cover: "photos/dope.webp" },
-    { title: "EGO CHECK", meta: "Kizazi Jeuri · track 1", note: "Prod. TBA", cover: "photos/kizazi.webp" },
-    { title: "NYOTA", meta: "Kizazi Jeuri · track 2", note: "Prod. TBA", cover: "photos/kizazi.webp" }
+    { title: "NATAKA", meta: "Unreleased single", note: "FATEGAMER feat. Lonepapi & Mussk · Contra Boyz · prod. Charm City Entertainment", cover: "photos/nataka.webp" }
   ],
 
   events: [],
