@@ -1,10 +1,25 @@
-Drop artist photos here using these names:
+Upload these files into this folder on GitHub (Add file → Upload files):
 
-- sunset.webp (hero)
-- album.webp (Life of a Gamer cover)
-- pray-sit.webp (about)
+COVERS
+- not-them.webp
+- kizazi.webp
+- maalim.webp
+- album.webp
+- life-badge.webp
+
+BRAND
+- trap-saint.webp
+- trap-saint-2.webp
+- built-different.webp
+- spotify-header.webp
+
+LOOKBOOK
+- sunset.webp
+- pray-sit.webp
 - pink.webp
 - red-balenciaga.webp
 - chrome-green.webp
-
-Then push to main.
+- timbs.webp
+- yellow-hoodie.webp
+- chrome-back.webp
+- denim.webp

@@ -53,17 +53,13 @@
   }
 
   const gallery = document.getElementById("gallery");
-  const shots = C.videos.concat([
-    { title: "Lookbook", note: "", image: "photos/pink.webp", href: C.socials.instagram },
-    { title: "Chrome", note: "", image: "photos/chrome-green.webp", href: C.socials.instagram }
-  ]);
-  shots.slice(0, 5).forEach((v) => {
+  (C.lookbook || []).forEach((v) => {
     const a = document.createElement("a");
-    a.href = v.href;
+    a.href = C.socials.instagram;
     a.target = "_blank";
     a.rel = "noopener";
-    a.title = v.title;
-    a.innerHTML = `<img src="${v.image}" alt="${v.title}" />`;
+    a.title = v.alt;
+    a.innerHTML = `<img src="${v.src}" alt="${v.alt}" />`;
     gallery.appendChild(a);
   });
 
@@ -77,14 +73,21 @@
 
   const all = document.getElementById("all-links");
   const directory = [
-    ["Instagram", C.socials.instagram],
+    ["Instagram — FATE GAMER", C.socials.instagram],
+    ["Instagram — TRAP SAINT", C.socials.instagramAlt],
     ["TikTok", C.socials.tiktok],
+    ["TikTok — TRAP SAINT", C.socials.tiktokAlt],
     ["YouTube", C.socials.youtube],
-    ["X", C.socials.x],
-    ["LinkedIn", C.socials.linkedin],
+    ["X / Twitter", C.socials.x],
+    ["Facebook", C.socials.facebook],
+    ["Threads", C.socials.threads],
     ["Spotify", C.listen.spotify],
     ["Apple Music", C.listen.apple],
-    ["GSCN", C.projects[0].href],
+    ["YouTube Music", C.listen.youtubeMusic],
+    ["Audiomack", C.listen.audiomack],
+    ["Boomplay", C.listen.boomplay],
+    ["LinkedIn", C.socials.linkedin],
+    ["GSCN", "https://gscn-network.vercel.app"],
     ["GitHub", C.socials.github]
   ];
   directory.forEach(([label, href]) => {
