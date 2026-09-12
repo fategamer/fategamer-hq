@@ -33,12 +33,12 @@ window.FG = {
     title: "MAREKA",
     type: "Single · out now",
     blurb: "Loyalty Over Everything.",
-    cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp",
-    href: "https://open.spotify.com/search/FATEGAMER%20MAREKA"
+    cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/1657a374-ce92-4073-bb88-b9c75ed94ad6/image.webp",
+    href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV"
   },
 
   releases: [
-    { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAREKA" },
+    { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/1657a374-ce92-4073-bb88-b9c75ed94ad6/image.webp", href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" },
     { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20DOPE" },
     { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/baf9e6e7-f909-4a2c-b517-7eacec89fda7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAALIM" },
     { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20KIZAZI%20JEURI" },
@@ -54,7 +54,7 @@ window.FG = {
 
   merchandise: [
     { id: "classic-tshirt", title: "Classic T-Shirt", price: "$25", desc: "Premium cotton with FATE GAMER identity", image: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/db23e99f-efab-4cd9-8f26-61f810f5318d/image.webp" },
-    { id: "premium-hoodie", title: "Premium Hoodie", price: "$60", desc: "Heavyweight premium hoodie with signature design", image: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp" },
+    { id: "premium-hoodie", title: "Premium Hoodie", price: "$60", desc: "Heavyweight premium hoodie with signature design", image: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/db23e99f-efab-4cd9-8f26-61f810f5318d/image.webp" },
     { id: "limited-vinyl", title: "Limited Vinyl", price: "$40", desc: "Collector edition physical release", image: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp" },
     { id: "bundle-pack", title: "Bundle Pack", price: "$100", desc: "T-shirt + Hoodie + Digital Album", image: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp" }
   ],
@@ -78,15 +78,13 @@ window.FG = {
   ],
 
   events: [
-    { date: "2026", city: "Nairobi, Kenya", venue: "Tour / booking calendar", ticket: "#contact" },
-    { date: "2026", city: "Lagos, Nigeria", venue: "International booking interest", ticket: "#contact" },
-    { date: "2026", city: "London, UK", venue: "International booking interest", ticket: "#contact" },
-    { date: "2026", city: "New York, USA", venue: "International booking interest", ticket: "#contact" }
+    { date: "2026", city: "Hola, Kenya", venue: "KIMICHO — bookings open", ticket: "https://wa.me/254794330246?text=KIMICHO%20booking" },
+    { date: "2026", city: "Nairobi, Kenya", venue: "Tour / booking calendar", ticket: "#contact" }
   ],
 
   lookbook: [
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/47e8e2e3-ecc6-4a11-a15d-fc0dc10aba3e/image.jpeg", alt: "PRAY" },
-    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/f06725ac-9ed3-47c0-a729-58cfe2d5c3be/image.webp", alt: "MAREKA" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/1657a374-ce92-4073-bb88-b9c75ed94ad6/image.webp", alt: "MAREKA" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", alt: "DOPE" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/8934189b-3e08-4f19-902a-30e1d11ba954/image.webp", alt: "Editorial" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/927a2a70-a46b-4cdf-a31a-03adbeedc4cd/image.webp", alt: "NATAKA" },
