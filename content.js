@@ -14,7 +14,7 @@ window.FG = {
     kicker: "It started in 33",
     headline: "Small me. Same fire.",
     nameLine: "Real name: Abdulwahab Mohamed Juma",
-    place: "EVER BLACK Kinyozi — Hola, Kenya",
+    place: "Everblazing Kinyozi — Hola, Kenya",
     body: [
       "This is small me. Before FATE GAMER. Before the stages. Before the stores.",
       "A child from 33, Hola, Kenya — already carrying passion, will and courage to chase the ambition.",
@@ -102,7 +102,7 @@ window.FG = {
   ],
 
   lookbook: [
-    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/4364052c-f6c6-4b8a-b9ce-cdfec60172dd/image.jpg", alt: "Small me — Hola" },
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/4364052c-f6c6-4b8a-b9ce-cdfec60172dd/image.jpg", alt: "Small me — Everblazing Kinyozi, Hola" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/47e8e2e3-ecc6-4a11-a15d-fc0dc10aba3e/image.jpeg", alt: "PRAY" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/1657a374-ce92-4073-bb88-b9c75ed94ad6/image.webp", alt: "MAREKA" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", alt: "DOPE" },
