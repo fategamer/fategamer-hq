@@ -78,8 +78,11 @@ section { padding: 96px 24px; }
 .lookbook a:nth-child(1), .lookbook a:nth-child(3) { grid-column: span 2; grid-row: span 2; }
 .lookbook a:nth-child(7) { grid-column: span 2; }
 .center-cta { display: flex; justify-content: center; margin-top: 28px; }
-.about { display: grid; grid-template-columns: .85fr 1.15fr; gap: 40px; align-items: start; }
-.about img { width: 100%; height: 680px; object-fit: cover; }
+.about { display: grid; grid-template-columns: .9fr 1.1fr; gap: 40px; align-items: start; }
+.origin-frame { margin: 0; border: 1px solid var(--line); background: #0b0a08; }
+.origin-frame img { width: 100%; height: auto; max-height: 720px; object-fit: contain; object-position: center top; background: #111; }
+.origin-frame figcaption { padding: 12px 14px 16px; color: var(--mute); font-size: 12px; letter-spacing: .08em; }
+.name-line { color: var(--gold-2) !important; letter-spacing: .06em; text-transform: none; font-weight: 500; }
 .about h2 { margin-bottom: 16px; }
 .about p { color: #cfc6b3; margin-bottom: 14px; }
 .quote { border-left: 2px solid var(--gold); padding-left: 16px; color: var(--gold-2); font-family: "Cinzel", serif; letter-spacing: .04em; margin: 22px 0; }
@@ -106,7 +109,6 @@ textarea { min-height: 140px; resize: vertical; }
 footer { border-top: 1px solid var(--line); padding: 28px 24px 40px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; color: #6a6356; font-size: 12px; letter-spacing: .08em; }
 .mobile-menu { display: none; position: fixed; inset: 0; z-index: 19; background: rgba(7,7,6,.96); padding: 90px 28px; flex-direction: column; gap: 22px; font-size: 22px; font-family: "Cinzel", serif; }
 
-/* Premium commerce layer — keeps the original visual language. */
 .merch-grid, .tiers-grid, .experiences-grid, .collab-grid, .testimonials-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .sales-card { display: flex; flex-direction: column; transition: transform .2s ease, border-color .2s ease; }
 .sales-card:hover { transform: translateY(-3px); border-color: rgba(232,213,163,.42); }
@@ -136,7 +138,7 @@ body.modal-open { overflow: hidden; }
   .hero-copy { padding: 0 22px 48px; }
   .lookbook { grid-template-columns: 1fr 1fr; grid-auto-rows: 180px; }
   .lookbook a:nth-child(1), .lookbook a:nth-child(3) { grid-column: span 2; grid-row: auto; }
-  .about img { height: 420px; }
+  .origin-frame img { max-height: 520px; }
   section { padding: 72px 18px; }
   h1 { font-size: 64px; }
   .fg-modal-card { padding: 24px 18px; }
