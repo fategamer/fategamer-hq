@@ -3,33 +3,43 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bookings — FATE GAMER</title>
+  <title>Book — FATE GAMER</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="nav.css" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <nav>
+  <nav class="fg-nav">
     <a class="brand" href="/">FATE GAMER</a>
-    <div class="nav-links">
+    <div class="links">
       <a href="/">Home</a>
       <a href="/music">Music</a>
       <a href="/life">Life</a>
       <a href="/events">Live</a>
-      <a href="/contact" aria-current="page">Book</a>
+      <a class="active" href="/contact">Book</a>
     </div>
-    <a class="nav-cta" href="https://wa.me/254794330246" target="_blank" rel="noopener">WhatsApp</a>
   </nav>
-  <section id="contact" style="padding-top:110px">
+  <section class="page-pad">
     <div class="wrap">
-      <div class="sec-head stacked"><p class="kicker">Bookings</p><h2>Work with FATE GAMER</h2><p>Shows, features, brands, media.</p></div>
+      <div class="sec-head stacked"><p class="kicker">Book</p><h2>Work with FATE GAMER</h2></div>
       <div class="follow-row">
         <a href="https://wa.me/254794330246?text=Booking" target="_blank" rel="noopener">WhatsApp 0794330246</a>
         <a href="https://linktr.ee/Fategamer" target="_blank" rel="noopener">Linktree</a>
         <a href="https://www.instagram.com/fate_.gamer/" target="_blank" rel="noopener">Instagram</a>
         <a href="mailto:bookings@fategamer.com">Email</a>
       </div>
+      <div class="next-row">
+        <a class="btn ghost" href="/events">← Live</a>
+        <a class="btn gold" href="/">Back home</a>
+      </div>
     </div>
   </section>
-  <footer><span>FATE GAMER · Bookings</span><span>0794330246</span></footer>
+  <nav class="fg-dock" aria-label="Site">
+    <a href="/">Home</a>
+    <a href="/music">Music</a>
+    <a href="/life">Life</a>
+    <a href="/events">Live</a>
+    <a class="active" href="/contact">Book</a>
+  </nav>
 </body>
 </html>

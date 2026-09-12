@@ -5,44 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Music — FATE GAMER</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="nav.css" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <nav>
+  <nav class="fg-nav">
     <a class="brand" href="/">FATE GAMER</a>
-    <div class="nav-links">
+    <div class="links">
       <a href="/">Home</a>
-      <a href="/music" aria-current="page">Music</a>
+      <a class="active" href="/music">Music</a>
       <a href="/life">Life</a>
       <a href="/events">Live</a>
       <a href="/contact">Book</a>
     </div>
-    <a class="nav-cta" href="/contact">Booking</a>
   </nav>
-  <section id="music" style="padding-top:110px">
+  <section class="page-pad">
     <div class="wrap">
-      <div class="sec-head stacked"><p class="kicker">The Music</p><h2>This is where the story gets a sound.</h2></div>
+      <div class="sec-head stacked"><p class="kicker">Music</p><h2>MAREKA is out now.</h2></div>
       <article class="featured">
         <img src="https://assets-2-prod.whop.com/public/uploads/2026-09-12/1657a374-ce92-4073-bb88-b9c75ed94ad6/image.webp" alt="MAREKA" />
         <div class="featured-body">
-          <p class="note">Latest Release</p>
+          <p class="note">Latest release</p>
           <h3>MAREKA</h3>
-          <p>FATE GAMER · Single · out now</p>
           <p>Loyalty Over Everything.</p>
-          <a class="btn gold" href="https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" target="_blank" rel="noopener">Listen Now</a>
+          <a class="btn gold" href="https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" target="_blank" rel="noopener">Listen on Spotify</a>
           <div class="platforms">
-            <a class="chip" href="https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" target="_blank" rel="noopener">Spotify</a>
             <a class="chip" href="https://music.apple.com/ke/artist/fategamer/6773395765" target="_blank" rel="noopener">Apple Music</a>
             <a class="chip" href="https://www.boomplay.com/artists/132222608" target="_blank" rel="noopener">Boomplay</a>
             <a class="chip" href="https://linktr.ee/Fategamer" target="_blank" rel="noopener">All stores</a>
           </div>
         </div>
       </article>
-      <div class="spotify-embed" style="margin-top:28px">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6vHtasL66B1rXt550ID8uV" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="FATE GAMER on Spotify"></iframe>
+      <iframe style="border-radius:12px;margin-top:24px" src="https://open.spotify.com/embed/artist/6vHtasL66B1rXt550ID8uV" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div class="next-row">
+        <a class="btn ghost" href="/">Back home</a>
+        <a class="btn gold" href="/life">Next: Life →</a>
       </div>
     </div>
   </section>
-  <footer><span>FATE GAMER · Music</span><span>MAREKA out now</span></footer>
+  <nav class="fg-dock" aria-label="Site">
+    <a href="/">Home</a>
+    <a class="active" href="/music">Music</a>
+    <a href="/life">Life</a>
+    <a href="/events">Live</a>
+    <a href="/contact">Book</a>
+  </nav>
 </body>
 </html>
