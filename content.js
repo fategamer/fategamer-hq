@@ -2,10 +2,26 @@
 
 window.FG = {
   name: "FATE GAMER",
+  legalName: "Abdulwahab Mohamed Juma",
   tagline: "From 33, Hola, Kenya. To the world.",
-  line: "Afro-Fusion Artist. Producer. Cultural Innovator.",
-  origin: "Redefining African sound. Building a movement.",
+  line: "Artist. Musician. Creator. Entrepreneur.",
+  origin: "Born from 33, Hola, Kenya — a star with passion, will and courage to chase the ambition.",
   email: "bookings@fategamer.com",
+
+  story: {
+    photo: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/4364052c-f6c6-4b8a-b9ce-cdfec60172dd/image.jpg",
+    portrait: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/da826469-4233-47af-b025-9d303e23ec61/image.webp",
+    kicker: "It started in 33",
+    headline: "Small me. Same fire.",
+    nameLine: "Real name: Abdulwahab Mohamed Juma",
+    place: "EVER BLACK Kinyozi — Hola, Kenya",
+    body: [
+      "This is small me. Before FATE GAMER. Before the stages. Before the stores.",
+      "A child from 33, Hola, Kenya — already carrying passion, will and courage to chase the ambition.",
+      "The journey has not been perfect. It has been built through ambition, mistakes, pressure, creativity, setbacks, lessons and the decision to keep moving.",
+      "Today the name FATE GAMER is the public face. Abdulwahab Mohamed Juma is the person who started it."
+    ]
+  },
 
   socials: {
     instagram: "https://www.instagram.com/fate_.gamer/",
@@ -16,17 +32,20 @@ window.FG = {
     x: "https://x.com/fate_gamerTM",
     facebook: "https://www.facebook.com/fategamer",
     threads: "https://www.threads.net/@fate_.gamer",
-    spotify: "https://open.spotify.com/search/FATEGAMER",
-    apple: "https://music.apple.com/search?term=FATEGAMER",
+    spotify: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV",
+    apple: "https://music.apple.com/ke/artist/fategamer/6773395765",
+    boomplay: "https://www.boomplay.com/artists/132222608",
+    linktree: "https://linktr.ee/Fategamer",
     whop: "https://whop.com/fate-gamer"
   },
 
   listen: {
-    spotify: "https://open.spotify.com/search/FATEGAMER",
-    apple: "https://music.apple.com/search?term=FATEGAMER",
+    spotify: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV",
+    apple: "https://music.apple.com/ke/artist/fategamer/6773395765",
     youtubeMusic: "https://music.youtube.com/search?q=FATEGAMER",
     audiomack: "https://audiomack.com/search?q=FATEGAMER",
-    boomplay: "https://www.boomplay.com/search/FATEGAMER"
+    boomplay: "https://www.boomplay.com/artists/132222608",
+    linktree: "https://linktr.ee/Fategamer"
   },
 
   featured: {
@@ -39,11 +58,11 @@ window.FG = {
 
   releases: [
     { title: "MAREKA", meta: "Single · out now", note: "Loyalty Over Everything", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/1657a374-ce92-4073-bb88-b9c75ed94ad6/image.webp", href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" },
-    { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20DOPE" },
-    { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/baf9e6e7-f909-4a2c-b517-7eacec89fda7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20MAALIM" },
-    { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20KIZAZI%20JEURI" },
-    { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20EGO%20CHECK" },
-    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/search/FATEGAMER%20NYOTA" }
+    { title: "DOPE", meta: "Single · out now", note: "Papitoo ft. FATEGAMER", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" },
+    { title: "MAALIM", meta: "Official Audio · out now", note: "Godown Music Studios", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/baf9e6e7-f909-4a2c-b517-7eacec89fda7/image.webp", href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" },
+    { title: "KIZAZI JEURI", meta: "EP · out now", note: "Ego Check · Nyota · Dope", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" },
+    { title: "EGO CHECK", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" },
+    { title: "NYOTA", meta: "Single · out now", note: "Kizazi Jeuri", cover: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/c89419da-b218-4fe5-ae31-dcb1da09f3b7/image.webp", href: "https://open.spotify.com/artist/6vHtasL66B1rXt550ID8uV" }
   ],
 
   vault: [
@@ -67,14 +86,14 @@ window.FG = {
   ],
 
   experiences: [
-    { id: "studio-session", icon: "🎙️", title: "Studio Session", desc: "2-hour private creative session with production and songwriting guidance", price: "$200" },
-    { id: "masterclass", icon: "🎓", title: "Masterclass", desc: "Private production, branding and music-career strategy session", price: "$75" },
-    { id: "meet-greet", icon: "🤝", title: "Meet & Greet", desc: "Private 30-minute experience with photo and signed item", price: "$100" },
-    { id: "custom-song", icon: "🎵", title: "Custom Song", desc: "Personalized songwriting and recording package", price: "$500" },
-    { id: "feature-collab", icon: "🎤", title: "Feature Collab", desc: "Feature opportunity with project scope confirmed before payment", price: "$1,000" },
-    { id: "music-video", icon: "🎬", title: "Music Video", desc: "Participation package for a FATE GAMER visual production", price: "$750" },
-    { id: "private-performance", icon: "🌍", title: "Private Performance", desc: "Premium private performance booking for brands, venues and events", price: "$2,500" },
-    { id: "brand-campaign", icon: "✦", title: "Brand Campaign", desc: "Custom artist partnership for launches, campaigns and cultural activations", price: "Custom quote" }
+    { id: "studio-session", icon: "\ud83c\udf99\ufe0f", title: "Studio Session", desc: "2-hour private creative session with production and songwriting guidance", price: "$200" },
+    { id: "masterclass", icon: "\ud83c\udf93", title: "Masterclass", desc: "Private production, branding and music-career strategy session", price: "$75" },
+    { id: "meet-greet", icon: "\ud83e\udd1d", title: "Meet & Greet", desc: "Private 30-minute experience with photo and signed item", price: "$100" },
+    { id: "custom-song", icon: "\ud83c\udfb5", title: "Custom Song", desc: "Personalized songwriting and recording package", price: "$500" },
+    { id: "feature-collab", icon: "\ud83c\udfa4", title: "Feature Collab", desc: "Feature opportunity with project scope confirmed before payment", price: "$1,000" },
+    { id: "music-video", icon: "\ud83c\udfac", title: "Music Video", desc: "Participation package for a FATE GAMER visual production", price: "$750" },
+    { id: "private-performance", icon: "\ud83c\udf0d", title: "Private Performance", desc: "Premium private performance booking for brands, venues and events", price: "$2,500" },
+    { id: "brand-campaign", icon: "\u2726", title: "Brand Campaign", desc: "Custom artist partnership for launches, campaigns and cultural activations", price: "Custom quote" }
   ],
 
   events: [
@@ -83,6 +102,7 @@ window.FG = {
   ],
 
   lookbook: [
+    { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/4364052c-f6c6-4b8a-b9ce-cdfec60172dd/image.jpg", alt: "Small me — Hola" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/47e8e2e3-ecc6-4a11-a15d-fc0dc10aba3e/image.jpeg", alt: "PRAY" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-12/1657a374-ce92-4073-bb88-b9c75ed94ad6/image.webp", alt: "MAREKA" },
     { src: "https://assets-2-prod.whop.com/public/uploads/2026-09-08/aa9ab1b5-32fa-4239-882a-b54fe2b605cb/image.webp", alt: "DOPE" },
@@ -97,12 +117,7 @@ window.FG = {
   ],
 
   collaborations: [
-    { name: "Wizkid", project: "Dream collaboration / target", link: "#contact" },
-    { name: "Burna Boy", project: "Dream collaboration / target", link: "#contact" },
-    { name: "The Weeknd", project: "Creative influence / target collaboration", link: "#contact" },
-    { name: "Kendrick Lamar", project: "Creative influence / target collaboration", link: "#contact" },
-    { name: "Rema", project: "Regional collaboration target", link: "#contact" },
-    { name: "Tems", project: "Creative collaboration target", link: "#contact" }
+    { name: "Open collabs", project: "Features, producers, brands — send the concept", link: "#contact" }
   ],
 
   testimonials: [
